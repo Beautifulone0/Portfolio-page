@@ -9,19 +9,51 @@
   --color: hsl(251, 69%, 75%);
   --btnColor: hsl(237, 38%, 54%);
   --outline: hsl(298, 75%, 87%);
+  --link-color: hsl(238.85,23.21%,43.92%);
+  --linkActive: hsl(0,100%,15.49%);
 }
 body{
-  background-color: var(--bodyBackground);
+  background-color: white;
 }
 h1{
   font-family: var(--Heading);
-  color: var(--color);
 }
-h2{
+h2,
+h3{
   font-family: var(--subheading);
-  color: var(--color);
-  font-size: 1em;
+}
+h1,
+h2,
+h3{
+  text-align: center;
+  color: var(--bodyBackground);
 }
 .header{
   background-color: var(--outline);
+}
+.links{
+  font-family: var(--body);
+  color: var(--link-color);
+}
+.links:hover{
+  color: var(--bodyBackground);
+}
+.links:active {
+  color: var(--linkActive);
+}
+.button{
+  border: 1rem;
+  border: 1px solid var(--color);
+  background: var(--btnColor);
+  color: var(--bodyBackground);
+}
+.button2{
+  border: 1rem;
+  border: 1px solid var(--btnColor);
+  background: var(--color);
+  color: var(--bodyBackground);
+}
+.gif{
+  display:block;
+  margin: 0 auto;
 }
