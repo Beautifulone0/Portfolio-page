@@ -57,3 +57,12 @@ h3{
   display:block;
   margin: 0 auto;
 }
+
+.center { 
+  text-align:center; 
+  width:100%; 
+}
+
+.project{
+ background-color: var(--color);
+}
