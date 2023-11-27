@@ -28,6 +28,12 @@ h3{
   text-align: center;
   color: var(--bodyBackground);
 }
+p{
+  color: var(--bodyBackground);
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: left;
+}
 .header{
   background-color: var(--outline);
 }
@@ -65,4 +71,11 @@ h3{
 
 .project{
  background-color: var(--color);
+}
+
+.rounded-border {
+  border: 2px solid var(--outline); /* Border color */
+  border-radius: 1rem; /* Adjust the border radius to make it more or less rounded */
+  padding: 1rem; /* Add some padding to the text inside the border */
+  display: inline-block; /* Keep the border size according to the content */
 }
